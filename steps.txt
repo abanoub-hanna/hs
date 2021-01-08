@@ -17,3 +17,7 @@ sudo zizzania -i en0 -b <BSSID> -w cap/capture.pcap -v
 cap2hccapx capture.pcap capture.hccapx
 
 hashcat -m 2500 capture.hccapx dict/rockyou.txt
+
+# brew install --cask inSSIDer
+# to show hidden WiFi APs (Access Points) -> inSSiDer require signin = bad idea
+
